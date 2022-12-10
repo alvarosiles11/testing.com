@@ -1,0 +1,38 @@
+{
+  "nombre": "yolaquilo",
+  "ss": "servisofts.yolaquilo",
+  "socket_client": {
+    "servicio": {
+      "puerto": 10001,
+      "ip": "34.106.183.138",
+      "cert": {
+        "OU": "servicio",
+        "pem": "servicio.pem"
+      }
+    },
+    "reconectTime": 5000
+  },
+  "files": {
+    "url": "/u01/servisoftsFiles/yoalquilo/"
+  },
+  "data_base": {
+    "puerto": 5432,
+    "pass": "postgres",
+    "ip": "34.106.189.174",
+    "bd_name": "yoalquilo",
+    "user": "postgres"
+  },
+  "ssl": {
+    "nombre_jks": "servisofts",
+    "pass_jks": "Servisofts123.",
+    "cert": {
+      "ST": "Av Banzer",
+      "C": "BO",
+      "E": "alvarosiles1@gmail.com",
+      "OU": "yoalquilo",
+      "CN": "yoalquilo.servisofts.com",
+      "L": "Santa Cruz",
+      "O": "Servisofts SRL"
+    }
+  }
+}
